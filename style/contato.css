@@ -187,7 +187,10 @@ button:focus~ul {
 
     background-color: var(--cor-segundaria);
     color: var(--cor-terciaria);
-    padding: 20px;
+    position: absolute;
+    padding: 20px 0 20px 0;
+    bottom: 0px;
+    width: 100%;
     text-align: center;
     font-size: 0.87rem;
     font-weight: 300px;
